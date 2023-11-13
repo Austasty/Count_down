@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+
+}
+.top-container{
+    background: linear-gradient(to bottom, pink, blue, brown);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serifs;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    transition: background-color 0.4s;
+}
+.navbar>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active>ul>li>a{
+    color: white;
+}
+
+
+
+
+
+

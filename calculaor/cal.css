@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: white;
+}
+.container{
+    background-color: rgb(33, 4, 59);
+    height: 100%;
+    width: 50vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container2{
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    margin-top: 4px;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+}
+button{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;  
+}
+.box3{
+margin-left: 200px;
+}
+h2{
+    margin-top: 15px;  
+}

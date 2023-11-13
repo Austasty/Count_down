@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: poppins, sans-serif;
+    background-image: url(../cart/img/pi.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+    font-weight: normal;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    justify-content: center
+  
+}
+.btn{
+    background-color: white;
+    padding: 30px 50px;
+    border: none;
+    margin: 10px;
+    font-size: 30px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    background-image: url("../drumkit/icons/pic4.jpg");
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+    white-space: nowrap;
+}
+.btn:hover{
+    color: pink;
+
+}
+.btn.active{
+    background-size: 105%;
+}
+
+
+
+
+
+
